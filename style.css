@@ -1,0 +1,170 @@
+#header{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 300px;
+    background: #000;
+    z-index: 9990;
+    transition: all ease-in-out 0.5s;
+    transition: all 0.5s;
+    overflow-y: auto;
+    background-color:black;
+
+}
+img{
+    border-radius: 50%;
+    margin-left: 25px;
+    border: 5px solid rgb(51, 50, 50);
+}
+h1,p{
+    margin-left: 25px;
+    color: black;
+    text-align: center;
+    font-weight: 800;
+}
+.name{
+    color:#fff;
+    text-decoration: none;
+}
+.contents{
+    display: flex;
+    color: red;
+    text-decoration: none;
+}
+#icon{
+    color: red;
+}
+.container-fluid{
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style-type: none;
+}
+i{
+    color: #fff;
+}
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+    margin-left: 76px;
+  }  
+  .fa-twitter {  
+    background: #55ACEE;  
+    color: white; 
+  }
+#main-content{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(270deg,black,red);
+    background: url("lapspect.jpg");
+}
+.content-conteiner{
+    margin-top: 0px;
+    top: 0%;
+}
+section{
+    top: 0px;
+}
+p{
+    font-size: 17px;
+}
+.content-conteiner{
+    padding-top: 287px;
+}
+.navbar-menu a:hover,
+.navbar-menu .active > a,
+.navbar-menu li:hover > a{
+    text-decoration: none;
+    color: #fff;
+}
+.navbar-menu a:hover i,
+.navbar-menu .active > a i,
+.navbar-menu li:hover > a i{
+    color: aqua;
+}
+.mobile-nav-toggle{
+    position: fixed;
+    right: 15px;
+    top: 15px;
+    z-index: 9998;
+    border: 0;
+    background: none;
+    font-size: 24px;
+    transition: all 0.4s;
+    outline: none !important;
+    line-height: 1px;
+    cursor: pointer;
+    text-align: right;
+
+    font-family: 'webflow-icons' !important;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.mobile-nav-toggle i{
+    color: aqua;
+}
+.mobile-nav-active{
+    overflow: hidden;
+}
+.mobile-nav-active #header{
+    left: 0;
+}
+.about{
+    margin-left: 170px;
+}
+.head-about{
+    margin-left: 170px;
+    font-weight: 800;
+}
+.skill-part{
+    width: 100%;
+    height: 100vh;
+    margin-left: 170px;
+}
+.skill-text{
+    margin-left: 170px;
+    font-weight: 800;
+}
+.progress{
+    width: 650px;
+    background: #55ACEE;
+    margin-left: 170px;
+}
+h4{
+    padding-left: 170px;
+}
+.work-part{
+    width: 100%;
+    height: 100vh;
+    margin-left: 170px;
+}
+.work-text{
+    margin-left: 170px;
+    font-weight: 800;
+}
+.image{
+    border-radius: 20%;
+    height: 212px;
+    width: 282px;
+    margin-left: 170px;
+    margin-top: 55px;
+}
+.tinker{
+    border-radius: 20%;
+    height: 212px;
+    width: 282px;
+    margin-left: 270px;
+    margin-top: 55px;
+}
+.login-image{
+    
+}
